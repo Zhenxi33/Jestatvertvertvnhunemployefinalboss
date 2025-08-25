@@ -1,0 +1,19 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 8px;
+}
+
+th, td {
+    width: 30%; 
+}
+
+th.instock, td.instock {
+    width: 10%; 
+}
